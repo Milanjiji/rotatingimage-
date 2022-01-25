@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden ;
+    background-color: #73c39075;
+}
+
+img{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    width: 650px;
+    height: 650px;
+    transform: translate(-50%,-50%);
+    animation: imgs 25s infinite linear;
+}
+.nat{
+    position: absolute;
+    left: 45%;
+    top: 34%;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    color: #064835;
+}
+.k{
+    position: absolute;
+    left: 47.5%;
+    top: 49%;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #064835;
+}
+
+@keyframes imgs{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
